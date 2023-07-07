@@ -1,0 +1,30 @@
+body {
+    background-color:blanchedalmond ;
+}
+
+h1 {
+    background-color:black ;
+}
+
+p { 
+}
+
+h1 {
+   color: white;
+}
+
+#especial {
+    color: blue;
+}
+
+.destacado {
+    text-decoration: underline;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.destacado.negrito {
+    color: red;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+ }
+
+div p {
+    border: 2px solid black;
+    color:white;
+}
+
+div > p {
+    color: green;
+}
+
+div ~ p {
+   text-transform: uppercase; 
+}
+
+
+div + p {
+  color: red;
+  font-size: small;
+}
+
+p:hover { 
+    background-color: blue;
+}
+
+p:first-child {
+    font-variant: small-caps;
+}
